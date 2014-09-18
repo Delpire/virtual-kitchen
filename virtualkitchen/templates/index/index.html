@@ -1,0 +1,43 @@
+
+
+<html>
+
+  <head>
+    {% load staticfiles %}
+    <link href="{% static "style.css" %}" type="text/css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-2.1.1.js" type="text/javascript"></script>
+    <script src="{% static "index.js" %}" type="text/javascript"></script>
+  </head>
+
+  <body>
+   
+    <div id="top-bar">
+      
+      <span>
+      </span>
+      <div id="logo" class="logo">
+        Virtual Kitchen
+      </div>
+      <span id="home-button" class="top-button">
+        <div id="home-bar"></div>
+        Home
+      </span>
+      <span id="about-button" class="top-button">
+        <div id="about-bar"></div>
+        About
+      </span>
+      <span id="sign-in-button" class="top-button">
+        <div id="sign-in-bar"></div>
+        Sign-In
+      </span>
+    </div>
+
+    <div>
+     <p> A web app to keep track of your kitchen. </p>
+     <p> Create and check grocery list automatically updating your kitchen. <p>
+     <p> Create and store recipes that keep track of what you can currently make. <p>
+     <p> Estimates nutrition to help you make smart choices. <p>
+    </div>
+  </body>
+
+</html>
